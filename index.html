@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head><link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet"></head>
+
+<div id="title"><h1>Memory Game</h1></div>
+<div id="gameContainer" class="unselectable">
+  <div id="gameBoard">
+    <div id="playButtonDiv"><button type="button" id="playButton" class="btn btn-custom">Play</button></div>
+    <div class="checkbox"><label><input type="checkbox" id="strictCheck"> Strict Mode</label></div>
+    <div id="strictText"></div>
+    <div id="levelDisplay"></div>
+    <div id="gameButtons">
+      <img id="gameButtonsImg" src="https://image.ibb.co/fPzmWG/Buttons.png" alt="game buttons" usemap=gameButtonMap>
+      <map name="gameButtonMap">
+        <area alt="red button" id="redButton" class="gameButton" shape="poly" coords="0,0, 115,0, 121,3, 3,121, 0,115">
+        <area alt="blue button" id="blueButton" class="gameButton" shape="poly" coords="130,132, 15,132, 9,128, 127,11, 130,16">
+        <area alt="green button" id="greenButton" class="gameButton" shape="poly" coords="141,132, 141,16, 144,11, 261,128, 256,131">
+        <area alt="yellow button" id="yellowButton" class="gameButton" shape="poly" coords="273,0, 273,115, 269,120, 152,3, 157,0">
+      </map>
+    </div>
+  </div>
+</div>
+
+<div id="footer">Coded and designed by Kasra Ghodsi </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
