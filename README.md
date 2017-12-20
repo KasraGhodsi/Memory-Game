@@ -2,6 +2,8 @@
 
 Clone of "Simon" memory game.
 
+Play it here: https://kasraghodsi.github.io/Memory-Game/
+
 ### Instructions:
 
 Press "Play" to start.
